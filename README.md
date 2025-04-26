@@ -4,17 +4,13 @@
 
 This application generates Persian poetry in three classical styles (Robaee, Masnavi, and Ghazal) using a fine-tuned GPT-2 model. The model has been trained on a diverse collection of Persian poetry to capture the essence and structure of these traditional formats.
 
-### Try It Live
-
-**Try the live demo**: [try it!](https://huggingface.co/spaces/n9e6y/PPG)
+###  [Try it in HF Spaces](https://huggingface.co/spaces/n9e6y/PPG)
 
 ## Features
 
-- **Multiple Poetry Styles**: Generate poetry in Robaee (quatrains), Masnavi (rhyming couplets), or Ghazal (lyrical poems) styles
+- **Multiple Poetry Styles**: Generate poetry in Robaee, Masnavi or Ghazal styles
 - **Customizable Generation**: Fine-tune parameters like temperature, length, and sampling methods
-- **Multiple Output Options**: Generate up to 5 poems at once
 - **Easy-to-Use Interface**: Simple Streamlit interface with both basic and advanced options
-- **Model Source Options**: Load the model from Hugging Face Hub or a local path
 
 ## Poetry Styles
 
