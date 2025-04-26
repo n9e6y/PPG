@@ -13,3 +13,4 @@ tensorflow==2.13.0
 torch==2.6.0
 plotly==5.14.1
 seaborn==0.12.2
+pyperclip==1.9.0

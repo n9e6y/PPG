@@ -18,8 +18,8 @@ This application generates Persian poetry in three classical styles (Robaee, Mas
 
 ## Poetry Styles
 
-- **Robaee (رباعی)**: Four-line quatrains with an AABA rhyme scheme, made famous by poets like Omar Khayyam
-- **Masnavi (مثنوی)**: A series of rhyming couplets, with each line sharing the same meter. The most famous Masnavi is by Rumi
+- **Robaee (رباعی)**: Four-line quatrains with an AABA rhyme scheme.
+- **Masnavi (مثنوی)**: A series of rhyming couplets, with each line sharing the same meter.
 - **Ghazal (غزل)**: A form with the same rhyme repeated throughout, often exploring themes of love and spirituality
 
 ## Installation
@@ -28,7 +28,7 @@ This application generates Persian poetry in three classical styles (Robaee, Mas
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/n9e6y/PPG.git
+   gh repo clone n9e6y/PPG
    cd PPG
    ```
 
@@ -44,22 +44,16 @@ This application generates Persian poetry in three classical styles (Robaee, Mas
 
 ## Using the Application
 
-1. **Load the Model**:
-   - Choose between loading from Hugging Face Hub (default) or a local path
-   - **Note** you should download model from [here](https://huggingface.co/spaces/n9e6y/PPG) if you want to try locally
-   - Click "Load Model" to initialize the model
-
-2. **Select Poetry Style**:
+1. **Select Poetry Style**:
    - Choose from Robaee, Masnavi, or Ghazal styles
    - Each style comes with pre-configured recommended settings
 
-3. **Set Generation Parameters**:
+2. **Set Generation Parameters**:
    - Basic: Choose the number of poems to generate
    - Advanced: Customize length, temperature, and sampling parameters
 
-4. **Generate**:
+3. **Generate**:
    - Click "Generate Poetry" to create your poems
-   - Copy the generated text using the provided text area
 
 ## Advanced Parameters
 
@@ -111,7 +105,7 @@ style_settings = {
 ## Acknowledgments
 
 - This project utilizes the [Transformers](https://github.com/huggingface/transformers) library from Hugging Face
-- The poetry generation model was trained on [collections of classical Persian poetry(https://github.com/ganjoor/desktop/releases/tag/v2.81)
+- The poetry generation model was trained on [collections of classical Persian poetry](https://github.com/ganjoor/desktop/releases/tag/v2.81)
 - Thanks to the [Streamlit](https://streamlit.io/) team for their excellent framework
 
 ## Contact
